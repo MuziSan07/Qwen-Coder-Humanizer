@@ -9,7 +9,7 @@ load_dotenv()
 
 def initialize_llm():
     return ChatGroq(
-        model="qwen-2.5-coder-32b",
+        model="qwen/qwen3-32b",
         temperature=0.7,
         max_tokens=500,
         timeout=None,
